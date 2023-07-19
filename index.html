@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Master and Detail View</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="master-list-view">
+      <center>
+        <h2 id="intro">Master List</h2>
+      </center>
+      <hr/>
+      <ul id="item-list"></ul>
+    </div>
+
+    <div id="detail-view">
+      <center>
+        <h2>Detail View</h2>
+        <hr/>
+        <div id="item-detail">
+          <img id="item-image" src="" alt=" No image ">
+          <h3 id="item-title"></h3>
+          <p id="item-description"></p>
+          <p id="item-price"></p>
+          <p id="item-stock"></p>
+          <button onclick="goBack()">Go Back</button>
+        </div>
+      </center>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
